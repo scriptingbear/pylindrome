@@ -99,30 +99,31 @@ items = ['AbCDEdcBA', {'oranges': 50, 'peaches': 20, 20: 'oranges', 50: 'peaches
 for item in items:
     print('Is \"{}\" a pylindrome? {}'.format(item, Pylindrome.is_pylindrome(item)))
 
-'''        
-stuff = 'AbCDEdcBA'        
-print('Is {} a pylidrome? {}'.format(stuff, Pylindrome.is_pylindrome(stuff)))
-
-stuff = [10,-50,'Python', True, 'Python',-50,10]       
-print('Is {} a pylidrome? {}'.format(stuff, Pylindrome.is_pylindrome(stuff)))
-
-
-stuff = ['cat','dog','pArrot','bIrd','parrot','dOG','cat']        
-print('Is {} a pylidrome? {}'.format(stuff, Pylindrome.is_pylindrome(stuff)))
+'''
+#====================================OUTPUT=============================================
+Is "Deleveled" a palindrome? True
+Is "hallucination" a palindrome? False
+Is "AbCDEdcBA" a palindrome? True
+Is "Level" a palindrome? True
+Is "rAcecaR" a palindrome? True
+Is "" a palindrome? False
 
 
-stuff = [7,2,90,65,90,2,7]
-print('Is {} a pylidrome? {}'.format(stuff, Pylindrome.is_pylindrome(stuff)))
 
 
-stuff = {'cat': 'meow', 'meow': 'cat', 'dog': 'bark', 'wolf': 'howl', 'howl': 'dog', 'bark': 'wolf'}
-print('Is {} a pylidrome? {}'.format(stuff, Pylindrome.is_pylindrome(stuff)))
+Is "AbCDEdcBA" a pylindrome? True
+Is "{'oranges': 50, 'peaches': 20, 20: 'oranges', 50: 'peaches'}" a pylindrome? True
+Is "[10, -50, 'Python', True, 'Python', -50, 10]" a pylindrome? True
+Is "['cat', 'dog', 'pArrot', 'bIrd', 'parrot', 'dOG', 'cat']" a pylindrome? True
+Is "[7, 2, 90, 65, 90, 2, 7]" a pylindrome? True
+Is "{'cat': 'meow', 'meow': 'cat', 'dog': 'bark', 'wolf': 'howl', 'howl': 'dog', 'bark': 'wolf'}" a pylindrome? True
+Is "{'Dell': 400.5, 'Acer': 325.99, 'Toshiba': 1100.99, 400.5: 'Acer', 325.99: 'Dell', 1100.99: 'Toshiba'}" a pylindrome? True
+Is "{'a': 'b', 'b': 'd'}" a pylindrome? False
+Is "[(1, 2), (5, 6), (1, 2)]" a pylindrome? True
+Is "" a pylindrome? False
+Is "{}" a pylindrome? False
+Is "[]" a pylindrome? False
 
-stuff = {'Dell': 400.50, 'Acer': 325.99, 'Toshiba': 1100.99, 400.50: 'Acer', 325.99: 'Dell', 1100.99: 'Toshiba'}
-print('Is {} a pylidrome? {}'.format(stuff, Pylindrome.is_pylindrome(stuff)))
-
-stuff = {'a': 'b', 'b': 'd'}
-print('Is {} a pylidrome? {}'.format(stuff, Pylindrome.is_pylindrome(stuff)))
 '''
 
 
