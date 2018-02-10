@@ -12,12 +12,12 @@ must be a key in order to be considered a pylindrome
 
 from testdome:
 
-A palindrome is a word that reads the same backward or forward.
+"A palindrome is a word that reads the same backward or forward.
 Write a function that checks if a given word is a palindrome.
 Character case should be ignored.
 For example, is_palindrome("Deleveled") should return
 True as character case should be ignored, resulting in "deleveled",
-which is a palindrome since it reads the same backward and forward.
+which is a palindrome since it reads the same backward and forward."
 '''
 
 
@@ -55,8 +55,8 @@ class Pylindrome:
 
         elif type(stuff) is list:
             #convert string elemements to lower
-            #stuff = list(map(lambda item: item.lower() if str(item)[0].isalpha() else item, stuff))
             temp = []
+            
             for item in stuff:
                 if type(item) is str:
                     temp.append(item.lower())
@@ -64,7 +64,6 @@ class Pylindrome:
                     temp.append(item)
 
             stuff = temp
-            
             return stuff[:(len(stuff)//2)+1] == stuff[(len(stuff)//2):][::-1]
 
         elif type(stuff) is dict:
